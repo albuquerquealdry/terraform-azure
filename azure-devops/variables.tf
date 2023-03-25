@@ -27,3 +27,9 @@ variable "build_name" {
   type        = string
   default     = "project"
 }
+
+variable "description" {
+  description = "Descrição do projeto"
+  type        = string
+  default     = "project"
+}
